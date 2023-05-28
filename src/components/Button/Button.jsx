@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { strongCyan, veryDarkCyan, veryLightGrayishCyan } from "../../static/colors/color";
 
@@ -21,7 +21,6 @@ const FiledButton = styled.button`
   `;
 
 const Button = ({selectedBtn, number,onClick}) => {
-  console.log("sel",selectedBtn);
   return <FiledButton $active={selectedBtn===number&&selectedBtn!=="custom"}  type="button" onClick={()=>{ onClick(number)}}>{number}%</FiledButton>;
 };
 

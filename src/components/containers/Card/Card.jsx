@@ -6,7 +6,7 @@ const CardContainer = styled.div`
 background-color:${white};
 border-radius:20px;
 padding:25px;
-width: 60%;
+width: 80%;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 gap: 20px;
